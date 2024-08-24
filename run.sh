@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Navigate to the front-end directory
-cd ./frontend
+cd ./financefrontend
 
 # Run front-end application
 npm start &
