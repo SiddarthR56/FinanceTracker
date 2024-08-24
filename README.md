@@ -19,7 +19,7 @@ Clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/yourusername/finance-tracker.git
-cd finance-tracker
+cd FinanceTracker
 ```
 
 ### Step 2: Install Dependencies
