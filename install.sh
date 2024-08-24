@@ -7,7 +7,7 @@ sudo apt-get update
 sudo apt-get install -y nodejs npm
 
 # Navigate to the front-end directory
-cd frontend
+cd ./financefrontend
 
 # Install front-end dependencies
 npm install
