@@ -1,0 +1,36 @@
+.summary {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .summary h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  .summary-item span {
+    flex: 1;
+  }
+  
+  .summary-item.income span:last-child {
+    color: #4caf50; /* Green for income */
+  }
+  
+  .summary-item.expense span:last-child {
+    color: #f44336; /* Red for expenses */
+  }
+  
+  .summary-item.balance span:last-child {
+    font-weight: bold;
+  }
+  

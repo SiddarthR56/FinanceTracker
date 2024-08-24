@@ -1,0 +1,100 @@
+.transaction-list {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .transaction-list h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .sort-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .sort-options label {
+    margin-right: 10px;
+  }
+  
+  .transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .transaction-item:last-child {
+    border-bottom: none;
+  }
+  
+  .transaction-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .transaction-date {
+    font-size: 0.9em;
+    color: #888;
+  }
+  
+  .transaction-description {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .transaction-category {
+    font-size: 0.9em;
+    color: #555;
+  }
+  
+  .transaction-amount {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  .transaction-amount.income {
+    color: #4caf50; /* Green for income */
+  }
+  
+  .transaction-amount.expense {
+    color: #f44336; /* Red for expenses */
+  }
+
+  /* CSS for sorting options in TransactionList */
+.sort-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .sort-options label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .sort-options select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    font-size: 1em;
+    max-width: 150px;
+    transition: border 0.3s;
+  }
+  
+  .sort-options select:hover {
+    border-color: #4caf50;
+  }
+  
+  .sort-options select:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
